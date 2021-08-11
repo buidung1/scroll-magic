@@ -1,0 +1,122 @@
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+  font-family: mont_black;
+}
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+  font-family: mont_regular;
+}
+@font-face {
+  src: url(../fonts/Spartan/static/Spartan-Black.ttf);
+  font-family: spartan_black;
+}
+@font-face {
+  src: url(../fonts/Spartan/static/Spartan-ExtraBold.ttf);
+  font-family: spartan_bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: mont_regular;
+}
+
+@media screen and (min-width: 1080px) {
+  .pinContainer {
+    height: 100vh;
+    font-family: spartan_black;
+  }
+  .pinContainer .title {
+    position: absolute;
+    font-size: 5rem;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+  }
+  .pinContainer .images {
+    position: absolute;
+    height: 70%;
+    top: 20%;
+  }
+  .pinContainer .i1 {
+    left: 10%;
+  }
+  .pinContainer .i2 {
+    left: 30%;
+  }
+  .pinContainer .i3 {
+    left: 50%;
+  }
+  .pinContainer .i4 {
+    left: 70%;
+  }
+  .pinContainer .i5 {
+    left: 90%;
+  }
+  .pinContainer .i6 {
+    left: 110%;
+  }
+  .pinContainer .i7 {
+    left: 130%;
+  }
+  .pinContainer .i8 {
+    left: 150%;
+  }
+  .pinContainer .i9 {
+    left: 170%;
+  }
+  .pinContainer .i10 {
+    left: 190%;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 1080px) {
+  .pinContainer {
+    height: 100vh;
+    font-family: spartan_black;
+  }
+  .pinContainer .title {
+    position: absolute;
+    font-size: 2rem;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+  }
+  .pinContainer .images {
+    position: absolute;
+    height: 55%;
+    bottom: 10%;
+  }
+  .pinContainer .i1 {
+    left: 10%;
+  }
+  .pinContainer .i2 {
+    left: 110%;
+  }
+  .pinContainer .i3 {
+    left: 210%;
+  }
+  .pinContainer .i4 {
+    left: 310%;
+  }
+  .pinContainer .i5 {
+    left: 410%;
+  }
+  .pinContainer .i6 {
+    left: 510%;
+  }
+  .pinContainer .i7 {
+    left: 610%;
+  }
+  .pinContainer .i8 {
+    left: 710%;
+  }
+  .pinContainer .i9 {
+    left: 810%;
+  }
+  .pinContainer .i10 {
+    left: 910%;
+  }
+}
